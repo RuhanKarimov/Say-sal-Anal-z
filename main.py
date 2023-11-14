@@ -9,7 +9,7 @@ x = float(input("Cos(x) için radian cinsinden x değeri giriniz (pi/5 = 0.62831
 
 ger_deg = cos(x)    # gercek deger
 
-xler = 1            # x'ler çarpımı
+xler = 1            # x'ler çarpımı1
 xler = float(xler)
 
 fakt = 1            # faktoriyel
@@ -31,7 +31,6 @@ for i in range(n):
         tah_deg = tah_deg + xler/fakt
     else:
         tah_deg = tah_deg - xler/fakt
-    print("Deneme tahmini deger : " + str(tah_deg))
 kesme_hatasi = ger_deg - tah_deg
 
 print("Gercek Deger : " + str(ger_deg))

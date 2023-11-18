@@ -1,4 +1,3 @@
-
 def bisection(x):
     return x * x * x + 4 * x * x - 10
 

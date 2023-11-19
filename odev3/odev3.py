@@ -10,9 +10,10 @@ def ft(x):
 
 
 x0 = 2
-x1 = int()
 for i in range(4):
     x1 = x0 - f(x0) / ft(x0)
     x0 = x1
-print(format(x1))
-print(format(f(x1)))
+    print("{}.İterasyon :".format(i + 1))
+    print(format(x1))
+    print(format(f(x1)))
+    print()

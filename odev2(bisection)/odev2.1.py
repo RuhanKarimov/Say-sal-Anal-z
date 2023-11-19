@@ -17,6 +17,7 @@ for i in range(4):
             x2 = x0
         elif y0 * b < 0:
             x1 = x0
-
-print("x0 : " + str(x0))
-print("y0 : " + str(y0))
+    print("{}.İterasyon".format(i+1))
+    print("x0 : " + str(x0))
+    print("y0 : " + str(y0))
+    print()
